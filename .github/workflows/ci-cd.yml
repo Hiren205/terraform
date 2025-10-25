@@ -39,8 +39,8 @@
             context: .
             file: ./Dockerfile
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/version-app:latest
-            
+            tags: ${{ secrets.DOCKER_USERNAME }}/version-app:latest
+
          # 6️⃣ Set up Terraform
         - name: Set up Terraform
           uses: hashicorp/setup-terraform@v3
