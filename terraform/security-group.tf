@@ -1,5 +1,5 @@
 resource "aws_security_group" "ec2_sg" {
-  name        = "terraform-sg-#Aswar1235678"
+  name        = "terraform-sg-#Aswar12356789"
   description = "Allow SSH and HTTP"
 
   ingress {
