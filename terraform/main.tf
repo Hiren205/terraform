@@ -17,7 +17,7 @@ resource "aws_instance" "web" {
               EOF
 
   tags = {  
-    Name = "Terraform-EC2-Docker"
+    Name = "Terraform-EC2-Docker-12"
   }
 }
 
