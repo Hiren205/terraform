@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   ami           = "ami-0e86e20dae9224db8"  # Amazon Linux 2 AMI (update if needed)
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   key_name      = "keynew"  # Replace with your actual key pair name
 
   security_groups = [aws_security_group.ec2_sg.name]
